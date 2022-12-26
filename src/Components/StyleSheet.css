@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Work+Sans:wght@200;300&display=swap');
+
+
+
+body {
+    background-color: rgb(209, 48, 8);
+  }
+ .colorAction{
+    color:  rgb(223, 197, 191) ;
+    text-align: center;
+    font-family: 'Balsamiq', cursive;
+    font-size: x-large;
+  }
+  .colorTitle{
+    color:  rgb(223, 197, 191) ;
+    text-align: center;
+    font-family: 'Balsamiq', cursive;
+    font-size: x-large;
+  }
+  .Btn {
+    outline: 0;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: rgb(236, 150, 150);
+    width: 70px;
+    border: 0.5px solid rgba(179, 229, 241, 0.37);
+    padding: 0.5rem 1rem;
+  }
+  
+ 
+ 
+  .ActionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+      /* background: white;
+      text-align: center;
+      height:220px ;
+      width: 222px;
+      padding: 20px 0 0 0 ; 
+      border-radius: 7px;
+      border:  rgb(0, 179, 155);
+      margin: 10px; */
+      
+    }
+    .InputContainer{
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: space-around;
+        justify-content: center;
+       
+          /* background: white;
+          text-align: center;
+          height:220px ;
+          width: 222px;
+          padding: 20px 0 0 0 ; 
+          border-radius: 7px;
+          border:  rgb(0, 179, 155);
+          margin: 10px; */
+          
+        }
+        .InputContainer input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border-width: 10;
+            width:70%;
+          }
+          .InputContainer button[type=submit] {
+            outline: 0;
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            background: rgb(236, 150, 150);
+            width: 70px;
+            border: 0.5px solid rgba(179, 229, 241, 0.37);
+            padding: 0.5rem 1rem;
+          }
+          .ListBtn {
+            outline: 0;
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            background: rgb(236, 150, 150);
+            width: 150px;
+            height: 30px;
+            border: 0.5px solid rgba(179, 229, 241, 0.37);
+            
+          }
+          .FilterContainer{
+            
+            align-items: center;
+            justify-content: center;
+           
+              /* background: white;
+              text-align: center;
+              height:220px ;
+              width: 222px;
+              padding: 20px 0 0 0 ; 
+              border-radius: 7px;
+              border:  rgb(0, 179, 155);
+              margin: 10px; */
+              
+            }
